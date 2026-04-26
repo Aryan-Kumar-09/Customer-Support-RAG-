@@ -22,14 +22,18 @@ The bot features a **History-Aware Retriever**, meaning it remembers the context
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/Aryan-Kumar-09/Customer-Support-RAG-
 ```
 **2. Install Dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
-**3. Run the Bot:**
+**3. Add your API Key**
+Export your OpenAI API key as an environment variable in your terminal:
+```bash
+export OPENAI_API_KEY="your-api-key-here"
+```
+**4. Run the Bot:**
 ```bash
 python support_bot.py
 ```
