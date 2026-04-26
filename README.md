@@ -22,7 +22,7 @@ The bot features a **History-Aware Retriever**, meaning it remembers the context
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/Aryan-Kumar-09/Customer-Support-RAG-
+git clone https://github.com/Aryan-Kumar-09/Customer-Support-RAG-/tree/main
 ```
 **2. Install Dependencies:**
 ```bash
