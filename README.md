@@ -1,6 +1,35 @@
-🤖 AI Customer Support Bot (RAG)This project is a conversational AI Customer Support Bot built using Retrieval-Augmented Generation (RAG). It uses a custom knowledge base to accurately answer customer queries about shipping, returns, and technical support without hallucinating information.The bot features a History-Aware Retriever, meaning it remembers the context of the conversation and can perfectly understand follow-up questions.🚀 FeaturesRAG Architecture: Grounds the AI's answers in a provided knowledge base (a mock FAQ document).Conversational Memory: Remembers previous questions and answers in the current session.Local Vector Storage: Uses FAISS to quickly search the document for relevant context.OpenAI Integration: Powered by gpt-3.5-turbo and text-embedding-3-small (or text-embedding-ada-002).🛠️ Tech StackPython 3.8+LangChain (Orchestration framework)OpenAI API (LLM & Embeddings)FAISS (Local Vector Database)💻 Setup & Installation1. Clone the repository:git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+# 🤖 AI Customer Support Bot (RAG)
+
+This project is a conversational AI Customer Support Bot built using **Retrieval-Augmented Generation (RAG)**. It uses a custom knowledge base to accurately answer customer queries about shipping, returns, and technical support without hallucinating information.
+
+The bot features a **History-Aware Retriever**, meaning it remembers the context of the conversation and can perfectly understand follow-up questions.
+
+## 🚀 Features
+
+* **RAG Architecture:** Grounds the AI's answers in a provided knowledge base (a mock FAQ document).
+* **Conversational Memory:** Remembers previous questions and answers in the current session.
+* **Local Vector Storage:** Uses FAISS to quickly search the document for relevant context.
+* **OpenAI Integration:** Powered by `gpt-3.5-turbo` and `text-embedding-3-small`.
+
+## 🛠️ Tech Stack
+
+* **Python 3.8+**
+* **LangChain** (Orchestration framework)
+* **OpenAI API** (LLM & Embeddings)
+* **FAISS** (Local Vector Database)
+
+## 💻 Setup & Installation
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
-2. Install dependencies:pip install -r requirements.txt
-3. Add your API Key:Export your OpenAI API key as an environment variable in your terminal:export OPENAI_API_KEY="your-api-key-here"
-(Windows users: use set OPENAI_API_KEY="your-api-key-here")4. Run the Bot:python support_bot.py
-📝 Example InteractionYou: What is the return policy?Bot: Customers can return products within 30 days of receipt for a full refund. Items must be in their original packaging...You: Do I have to pay for shipping for that? (Bot remembers context!)Bot: Return shipping is free if the item was defective; otherwise, a $10 restocking fee applies.
+```
+**2. Install Dependencies:**
+```bash
+pip install -r requirements.txt
+```
+**3. Run the Bot:**
+```bash
+python support_bot.py
+```
