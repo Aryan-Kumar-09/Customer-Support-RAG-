@@ -35,5 +35,5 @@ export OPENAI_API_KEY="your-api-key-here"
 ```
 **4. Run the Bot:**
 ```bash
-python support_bot.py
+python support.py
 ```
